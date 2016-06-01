@@ -6,8 +6,8 @@ There are two CSS files applied to the Skeleton website:
 - the Skeleton CSS
 - a custom CSS for the website
 Both are linked in the HTML:
-  <code><link rel="stylesheet" href="../../dist/css/skeleton.css">
-  <link rel="stylesheet" href="css/custom.css"></code>
+  <code>&lt;link rel="stylesheet" href="../../dist/css/skeleton.css"&gt;
+  &lt;link rel="stylesheet" href="css/custom.css"&gt;</code>
 
 The custom CSS link comes after the Skeleton link, which means that, if both files contain the same CSS rule, the custom CSS will be applied (instead of the Skeleton CSS).
 
