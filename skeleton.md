@@ -5,9 +5,12 @@ The Skeleton demo website is responsive, the layout changes depending on the siz
 There are two CSS files applied to the Skeleton website:
 - the Skeleton CSS
 - a custom CSS for the website
+
 Both are linked in the HTML:
-  <code>&lt;link rel="stylesheet" href="../../dist/css/skeleton.css"&gt;
-  &lt;link rel="stylesheet" href="css/custom.css"&gt;</code>
+
+  &lt;link rel="stylesheet" href="../../dist/css/skeleton.css"&gt;
+
+  &lt;link rel="stylesheet" href="css/custom.css"&gt;
 
 The custom CSS link comes after the Skeleton link, which means that, if both files contain the same CSS rule, the custom CSS will be applied (instead of the Skeleton CSS).
 
